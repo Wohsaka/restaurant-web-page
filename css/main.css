@@ -440,6 +440,58 @@
   font-size: 2rem;
 }
 
+@media screen and (min-width: 320px) {
+  .nav-link {
+    font-size: 1.5rem;
+  }
+  .about-img {
+    font-size: 1.5rem;
+  }
+  .about-content {
+    font-size: 1rem;
+  }
+  .specialties-img {
+    font-size: 1.5rem;
+    height: 40vh;
+  }
+  .specialties .dishes {
+    -ms-grid-rows: (1fr)[6];
+        grid-template-rows: repeat(6, 1fr);
+    font-size: 1rem;
+  }
+  .specialties .dishes .dish .review {
+    padding: 0.2rem;
+    font-size: 0.7rem;
+  }
+  .specialties .see-menu.open {
+    width: 40px;
+    z-index: 4;
+    right: 14.5rem;
+  }
+  .specialties .see-menu.open .see-menu-btn {
+    font-size: 0.6rem;
+  }
+  .specialties .full-menu {
+    z-index: 3;
+    width: 17rem;
+    -webkit-transform: translateX(200vw);
+            transform: translateX(200vw);
+    overflow: scroll;
+  }
+  .specialties .social-icons-link {
+    font-size: 1rem;
+  }
+  .specialties footer {
+    font-size: 0.7rem;
+  }
+  .location h1 {
+    font-size: 2rem;
+  }
+  .location h3 {
+    font-size: 1.1rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .nav-btn {
     visibility: hidden;
